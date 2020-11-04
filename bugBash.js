@@ -37,7 +37,8 @@ async function generateIonValues () {
     /**
      * This creates the create request and prints it out. You can copy and paste this into postman to make the request
      */
-    const request = sdk.IonRequest.createCreateRequest({recoveryKey: recoveryKeys[0], updateKey: updateKeys[0], document: {}});
+    const document = {}
+    const request = sdk.IonRequest.createCreateRequest({recoveryKey: recoveryKeys[0], updateKey: updateKeys[0], document: document});
     console.log('==============THIS IS YOUR REQUEST==============');
     console.log(JSON.stringify(request, null, 2));
     console.log('================================================');
