@@ -1,0 +1,23 @@
+{
+  "name": "ionbugbash",
+  "version": "1.0.0",
+  "description": "Happy Bug Bashing!",
+  "main": "bugBash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bugBash.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaacJChen/ionBugBash.git"
+  },
+  "author": "isaacjchen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaacJChen/ionBugBash/issues"
+  },
+  "homepage": "https://github.com/isaacJChen/ionBugBash#readme",
+  "dependencies": {
+    "@decentralized-identity/ion-sdk": "^0.3.1"
+  }
+}
