@@ -1,7 +1,7 @@
-const sdk = require('@decentralized-identity/ion-sdk')
+import * as sdk from '@decentralized-identity/ion-sdk';
 
 // this prints out a create operation request with no key and services
-async function generateIonValues () {
+async function generateIonValues (): Promise<void> {
     /**
      * Add or remove whatever you want here to try and break the sdk or add properties to your did document
      */
