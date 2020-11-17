@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/isaacJChen/ionBugBash#readme",
   "dependencies": {
-    "@decentralized-identity/ion-sdk": "^0.3.1",
+    "@decentralized-identity/ion-sdk": "^0.4.1",
     "copyfiles": "^2.4.0",
     "typescript": "^3.9.7"
   }
